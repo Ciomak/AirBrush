@@ -7,3 +7,5 @@ app = Flask(__name__)
 app.config.from_object('settings')
 
 db = SQLAlchemy(app)
+
+from airbrush.gallery import models
